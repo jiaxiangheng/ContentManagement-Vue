@@ -1,9 +1,9 @@
 <template>
 <div id="detail">
-    <h3>欢迎图书详情</h3>
+    <h3>{{book.bookname}}-详情</h3>
     <div class="panel panel-warning">
         <div class="panel-heading">
-            书名：<span v-show="!flag">{{book.bookname}}</span>
+            <span v-show="!flag">{{book.bookname}}</span>
             <input type="text" v-show="flag" v-model="book.bookname">
         </div>
         <div class="panel-body">

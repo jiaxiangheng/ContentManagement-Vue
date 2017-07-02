@@ -10,10 +10,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <router-link to="/list">图书列表</router-link>
+                        <router-link to="/list">产品列表</router-link>
                     </li>
                     <li>
-                        <router-link to="/add">图书增加</router-link>
+                        <router-link to="/add">增加产品</router-link>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->

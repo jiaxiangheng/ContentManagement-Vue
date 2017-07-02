@@ -1,10 +1,10 @@
 <template>
 <div id="list">
-    <h3>图书管理</h3>
+    <h3>产品管理</h3>
     <div class="col-md-3" v-for="book in books">
         <div class="panel panel-warning">
             <div class="panel-heading">
-                书名：<span>{{book.bookname}}</span>
+                <span>{{book.bookname}}</span>
             </div>
             <div class="panel-body">
                 <img :src="book.bookcover" alt="">
